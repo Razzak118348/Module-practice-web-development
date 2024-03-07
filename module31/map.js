@@ -34,3 +34,6 @@ console.log(firestLetter)
 
 const lastLetter = name.map(n => n[n.length - 1])
 console.log(lastLetter)
+
+const middle= name.map(a=>a[parseInt(a.length/2) -1])
+console.log(middle)
