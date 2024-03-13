@@ -2,7 +2,9 @@ function loadPost(){
  fetch('https://jsonplaceholder.typicode.com/posts')
  .then(res => res.json())
  .then(post => displayPost(post))
+ .catch(error => console.error('error happend',error))
 }
+
 
 function displayPost(post){
     const postContainer= document.getElementById('post-container')
@@ -31,3 +33,4 @@ function displayPost(post){
 }
 
 loadPost();
+
