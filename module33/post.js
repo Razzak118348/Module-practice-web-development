@@ -25,7 +25,6 @@ function displayPost(post){
        <h5> Post: ${item.
         title}</h5>
        <p>Post Description: ${item.body}</p>
-
        `
        postContainer.appendChild(Postdiv)
     
