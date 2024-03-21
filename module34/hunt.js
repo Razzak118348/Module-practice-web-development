@@ -7,7 +7,7 @@ const loadPhone = async (searchPhone) => {
 }
 
 const displayPhone = phone => {
-    // console.log(phone)
+    console.log(phone)
     // 1.find the container where div will be append 
     // 2.create a div 
     // 3.set inner html
@@ -54,8 +54,8 @@ const displayPhone = phone => {
 
 //search 
 const handleSearch =()=>{
-    const search =document.getElementById('textfield').value;
     toggleLoadingSpiner(true);
+    const search =document.getElementById('textfield').value;
     loadPhone(search);
     
     
