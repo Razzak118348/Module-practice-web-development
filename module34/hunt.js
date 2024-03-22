@@ -133,7 +133,5 @@ const handalShowAll =()=>{
 
 loadPhone();
 
-function ClearText(){
-    // document.getElementById('textfield').value="";
-}
+
 
