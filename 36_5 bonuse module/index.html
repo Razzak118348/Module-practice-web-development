@@ -8,9 +8,11 @@
 </head>
 
 <body>
-    <input type="text" placeholder="product">
-    <input type="text" placeholder="Quantiti">
-    <button>Add Product</button>
+    <input id="product-name" type="text" placeholder="product">
+    <input id="product-quantity" type="text" placeholder="Quanti">
+    <button onclick="addProduct()">Add Product</button>
+
+    <ul id="product-container"></ul>
 
     <script src="./app.js"></script>
 </body>
